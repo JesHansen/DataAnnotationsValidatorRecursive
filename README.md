@@ -1,3 +1,9 @@
+# .NET6 port of Mike Reust's DataAnnotationsValidatorRecursive
+
+The original project this was ported from can be found at:
+
+https://github.com/reustmd/DataAnnotationsValidatorRecursive
+
 # DataAnnotationsValidatorRecursive
 
 The helper will recursively traverse your object graph and invoke validation against DataAnnotations.

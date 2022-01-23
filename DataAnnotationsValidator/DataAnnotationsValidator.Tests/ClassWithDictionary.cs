@@ -1,9 +1,8 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace DataAnnotationsValidator.Tests
+namespace Tests;
+
+public class ClassWithDictionary
 {
-    public class ClassWithDictionary
-    {
-        public List<Dictionary<string, Child>> Objects { get; set; }
-    }
+    public List<Dictionary<string, Child>>? Objects { get; set; }
 }

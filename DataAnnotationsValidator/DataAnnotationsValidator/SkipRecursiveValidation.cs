@@ -1,8 +1,8 @@
-﻿using System;
+﻿namespace CorePort;
 
-namespace DataAnnotationsValidator
+/// <summary>
+/// Indicates that this should not be recursively validated.
+/// </summary>
+public class SkipRecursiveValidation : Attribute
 {
-	public class SkipRecursiveValidation : Attribute
-	{
-	}
 }

@@ -1,9 +1,8 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace DataAnnotationsValidator.Tests
+namespace Tests;
+
+public class ClassWithNullableEnumeration
 {
-    public class ClassWithNullableEnumeration
-    {
-        public List<Child> Objects { get; set; }
-    }
+    public List<Child?>? Objects { get; set; }
 }
